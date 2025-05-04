@@ -36,12 +36,25 @@ const Preparation = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center">
-            <img 
-              src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixlib=rb-4.0.3&q=80&w=2574&auto=format&fit=crop" 
-              alt="Карта операции" 
-              className="rounded-lg shadow-xl mb-6 max-h-80 object-cover" 
-            />
-            <p className="text-sm text-gray-400">Карта Берлинской операции</p>
+            <div className="relative group">
+              <img 
+                src="https://cdn.poehali.dev/files/372df661-c679-44b4-8f2e-c1569d991099.jpg" 
+                alt="Карта Берлинской операции" 
+                className="rounded-lg shadow-xl mb-6 object-contain cursor-pointer transition-transform hover:scale-105" 
+              />
+              <div className="absolute bottom-6 right-2 bg-black/70 px-2 py-1 rounded text-xs text-white">
+                Нажмите для увеличения
+              </div>
+            </div>
+            <p className="text-sm text-gray-400">Карта Берлинской операции 16.04 - 08.05.1945 г.</p>
+            <div className="mt-4 text-xs text-gray-500 max-w-md">
+              <p className="mb-1">Обозначения:</p>
+              <ul className="list-disc pl-4 space-y-1">
+                <li>Красные стрелки — направления ударов советских войск</li>
+                <li>Синие линии — положение линии фронта на разные даты</li>
+                <li>Перечеркнутые области — узлы сопротивления противника</li>
+              </ul>
+            </div>
           </div>
         </div>
         
