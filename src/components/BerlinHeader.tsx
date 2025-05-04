@@ -9,7 +9,7 @@ const BerlinHeader = () => {
       <div 
         className="h-[60vh] bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1590598016995-e8498314f3b0?q=80&w=2574&auto=format&fit=crop')"
+          backgroundImage: "url('https://cdn.poehali.dev/files/cecabb0e-beef-492c-9dc8-08a075fd2792.jpg')"
         }}
       ></div>
       

@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import BerlinHeader from "@/components/BerlinHeader";
 import TimeLine from "@/components/TimeLine";
+import GallerySection from "@/components/GallerySection";
 
 const Index = () => {
   return (
@@ -26,7 +27,7 @@ const Index = () => {
             </div>
             <div className="flex flex-col items-center">
               <img 
-                src="https://images.unsplash.com/photo-1605796418444-2afb4fc35365?q=80&w=2574&auto=format&fit=crop" 
+                src="https://cdn.poehali.dev/files/36136e42-d143-40f8-abff-0e949c03e9d2.jpg" 
                 alt="Рейхстаг после штурма" 
                 className="rounded-lg shadow-xl mb-6 max-h-96 object-cover"
               />
@@ -35,7 +36,9 @@ const Index = () => {
           </div>
         </section>
 
-        <section className="mb-16">
+        <GallerySection />
+
+        <section className="mb-16 mt-12">
           <h2 className="text-3xl font-bold mb-6 text-red-500">Разделы сайта</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-gray-800 p-6 rounded-lg shadow-md hover:bg-gray-700 transition-colors">
